@@ -1,5 +1,5 @@
 <div class="filter-button-group">
-    <button class="secondary button button-rounded-left" data-filter="*">Show All</button>
+    <button class="button button-rounded-left" data-filter="*">Show All</button>
     <button class="secondary button" data-filter=".grid-website">Websites</button>
     <button class="secondary button" data-filter=".grid-flyer">Flyers</button>
     <button class="secondary button" data-filter=".grid-album">Album Covers</button>
@@ -30,7 +30,11 @@
             $('.filter-button-group .button').addClass('secondary');
             button_clicked.removeClass('secondary');
         } else {
-            button_clicked.addClass('secondary');
+            if (filterValue == '*') {
+                button_clicked.removeClass('secondary');
+            } else {
+                button_clicked.addClass('secondary');
+            }
         }
     });
 </script>

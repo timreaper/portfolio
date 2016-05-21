@@ -16,8 +16,8 @@
     },
     "2": {
       "name": "Forbidden Codes",
-      "type": "album",
-      "date": "February 2015 - May 2016",
+      "type": "project",
+      "date": "September 2013 - November 2013",
       "thumbnail": "",
       "images": {
         "0": {
@@ -26,12 +26,12 @@
           "caption": ""
         }
       },
-      "description": ""
+      "description": "This is a collection of artwork that I completed for a various artists compilation on a record label called 117 Records."
     },
     "3": {
-      "name": "7%",
+      "name": "7 Per Cent",
       "type": "website",
-      "date": "February 2015 - May 2016",
+      "date": "September 2014",
       "thumbnail": "",
       "images": {
         "0": {
@@ -40,7 +40,7 @@
           "caption": ""
         }
       },
-      "description": ""
+      "description": "This is a small one page website that I designed & implemented for fun, that loaded random design inspiration websites on click of the main button/emblem."
     },
     "4": {
       "name": "Science HKI",
@@ -54,12 +54,12 @@
           "caption": ""
         }
       },
-      "description": ""
+      "description": "This is some artwork I designed (using my own photography) for an edition of a podcast series that I was featuring on."
     },
     "5": {
       "name": "Storylines",
       "type": "album",
-      "date": "February 2015 - May 2016",
+      "date": "March 2016 - May 2016",
       "thumbnail": "",
       "images": {
         "0": {
@@ -68,7 +68,7 @@
           "caption": ""
         }
       },
-      "description": ""
+      "description": "This is some artwork (using my own photography) that I've designed for an EP of mine that will be coming out soon on a record label called Skeleton Recordings."
     },
     "6": {
       "name": "blackFRUIT",
@@ -82,10 +82,66 @@
           "caption": ""
         }
       },
-      "description": ""
+      "description": "This is a mock website design which I created for a band, but was never implemented."
     },
     "7": {
+      "name": "Working Title",
+      "type": "album",
+      "date": "February 2013",
+      "thumbnail": "",
+      "images": {
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
+      },
+      "description": "This is the digital cover (using my own photography) of a series of free downloads that I was releasing on my SoundCloud page."
+    },
+    "8": {
       "name": "Hex Digital",
+      "type": "website",
+      "date": "September 2013",
+      "thumbnail": "",
+      "images": {
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
+      },
+      "description": "This is a website I created for an interview with a digital agency in Dalston that I was applying to intern for."
+    },
+    "9": {
+      "name": "Filter Mag",
+      "type": "website",
+      "date": "April 2013 - May 2013",
+      "thumbnail": "",
+      "images": {
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
+      },
+      "description": "This is a mock design for a music magazine website, that I was planning on implementing with a group of friends but did not have the time to do so."
+    },
+    "10": {
+      "name": "Critical Sound",
+      "type": "album",
+      "date": "August 2010",
+      "thumbnail": "",
+      "images": {
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
+      },
+      "description": "This is a concept design done for a various artist compilation on a drum & bass label, but was not used."
+    },
+    "11": {
+      "name": "Forbidden Codes (Website)",
       "type": "website",
       "date": "February 2015 - May 2016",
       "thumbnail": "",
@@ -96,12 +152,12 @@
           "caption": ""
         }
       },
-      "description": ""
+      "description": "This is a promotional splash page I designed for the lead up to a various artist compilation that I had also designed the artwork for."
     },
-    "8": {
-      "name": "Working Title",
-      "type": "album",
-      "date": "February 2015 - May 2016",
+    "12": {
+      "name": "117 Records",
+      "type": "project",
+      "date": "August 2010 - October 2010",
       "thumbnail": "",
       "images": {
         "0": {
@@ -110,7 +166,63 @@
           "caption": ""
         }
       },
-      "description": ""
+      "description": "I was tasked with creating a 'style guide' for a newly formed record label called 117 Records & based on the requirements provided by the label owner, this was the outcome."
+    },
+    "13": {
+      "name": "Amen Warfare",
+      "type": "project",
+      "date": "August 2010",
+      "thumbnail": "",
+      "images": {
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
+      },
+      "description": "This is a set of artwork that I designed for a compilation I was also featuring on. The plans were changed at the last minute and there were no vinyl or CD manufactured for the release, so only the digital art was used."
+    },
+    "14": {
+      "name": "Abstractions Presents Rupture",
+      "type": "flyer",
+      "date": "January 2010",
+      "thumbnail": "",
+      "images": {
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
+      },
+      "description": "This is a flyer I designed for a joint night hosted by 2 different promotions, but was never used."
+    },
+    "15": {
+      "name": "Simple Technique",
+      "type": "album",
+      "date": "December 2012",
+      "thumbnail": "",
+      "images": {
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
+      },
+      "description": "This is a simple promotional art made for an artist I knew at the time."
+    },
+    "16": {
+      "name": "Coding Conventions",
+      "type": "website",
+      "date": "January 2014",
+      "thumbnail": "",
+      "images": {
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
+      },
+      "description": "This is a simple one page website I made as part of my degree, to educate students on best practices for Java programming."
     }
   }
 }
