@@ -1,0 +1,19 @@
+.menu {
+  box-shadow: $box-shadow;
+  padding: 25px;
+
+  &__link {
+    color: black;
+    &:hover {
+      color: $link-colour;
+      @include transition-property('color');
+      @include transition-duration($transition-duration);
+      @include transition-timing-function('linear');
+    }
+  }
+
+  &__logo {
+    margin-bottom: 10px;
+    max-width: 300px;
+  }
+}

@@ -9,7 +9,9 @@ var router = new function () {
     this.load_page = function () {
         var page = router.get_pathname();
         if (page[page.length - 1] == 'index.html') {
-            $('#page').html(portfolio.master);
+            $.getJSON("portfolio_content.json", function (data) {
+                $('#page').html(portfolio.master(data));
+            });           
         }
     }
 };

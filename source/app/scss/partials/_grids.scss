@@ -1,0 +1,15 @@
+.grid {
+  display: inline-block;
+  width: 280px;
+}
+
+.grid-container {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.site-container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}

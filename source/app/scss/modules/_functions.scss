@@ -1,0 +1,9 @@
+////////////////////////////////////////////////////////
+// Functions (return code based on variables passed)  //
+////////////////////////////////////////////////////////
+
+/* Converts px values to rem */
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
