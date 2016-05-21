@@ -8,4 +8,5 @@
 
 @import "animate/animate.scss";
 @import "foundation/foundation.scss";
-@import "foundation/global";
+@include foundation-everything;
+@import "normalize/normalize";

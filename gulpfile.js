@@ -120,7 +120,7 @@ gulp.task('scss_libraries', function () {
     return gulp.src(scssLibFile)
         .pipe(concat('libraries.css'))
         .pipe(sass().on('error', sass.logError))
-        .pipe(minifyCSS())
+        //.pipe(minifyCSS())
         .pipe(gulp.dest(cssLibDest));
 });
 
