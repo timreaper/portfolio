@@ -6,9 +6,13 @@
       "date": "February 2015 - May 2016",
       "thumbnail": "",
       "images": {
-        "0": ""
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
       },
-      "description": ""
+      "description": "This is the e-commerce website which I did design & maintenance on whilst I worked at CueSongs."
     },
     "2": {
       "name": "Forbidden Codes",
@@ -16,7 +20,11 @@
       "date": "February 2015 - May 2016",
       "thumbnail": "",
       "images": {
-        "0": ""
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
       },
       "description": ""
     },
@@ -26,7 +34,11 @@
       "date": "February 2015 - May 2016",
       "thumbnail": "",
       "images": {
-        "0": ""
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
       },
       "description": ""
     },
@@ -36,7 +48,11 @@
       "date": "February 2015 - May 2016",
       "thumbnail": "",
       "images": {
-        "0": ""
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
       },
       "description": ""
     },
@@ -46,7 +62,11 @@
       "date": "February 2015 - May 2016",
       "thumbnail": "",
       "images": {
-        "0": ""
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
       },
       "description": ""
     },
@@ -56,7 +76,11 @@
       "date": "February 2015 - May 2016",
       "thumbnail": "",
       "images": {
-        "0": ""
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
       },
       "description": ""
     },
@@ -66,7 +90,11 @@
       "date": "February 2015 - May 2016",
       "thumbnail": "",
       "images": {
-        "0": ""
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
       },
       "description": ""
     },
@@ -76,7 +104,11 @@
       "date": "February 2015 - May 2016",
       "thumbnail": "",
       "images": {
-        "0": ""
+        "0": {
+          "url": "",
+          "alt": "",
+          "caption": ""
+        }
       },
       "description": ""
     }

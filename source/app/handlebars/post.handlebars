@@ -1,0 +1,17 @@
+<div class="post-container row">
+    <div class="small-6 columns">
+        {{#each images}}
+            <img src="{{url}}" alt="{{alt}}" title="{{title}}">
+            <p>{{caption}}</p>
+        {{/each}}
+    </div>
+
+    <div class="small-6 columns">
+        <h1 class="no-margin">{{name}}</h1>
+        <h5>{{type_formatter type}} | {{date}}</h5>
+        <hr>
+        <p>
+            {{description}}
+        </p>
+    </div>
+</div>

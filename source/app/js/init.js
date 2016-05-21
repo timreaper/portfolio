@@ -4,4 +4,8 @@
 
 $(document).ready(function () {
     router.load_page();
+
+    $(window).on('hashchange', function () {
+        router.load_page();
+    });
 });

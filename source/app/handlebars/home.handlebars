@@ -1,0 +1,36 @@
+<div class="filter-button-group">
+    <button class="secondary button button-rounded-left" data-filter="*">Show All</button>
+    <button class="secondary button" data-filter=".grid-website">Websites</button>
+    <button class="secondary button" data-filter=".grid-flyer">Flyers</button>
+    <button class="secondary button" data-filter=".grid-album">Album Covers</button>
+    <button class="secondary button button-rounded-right" data-filter=".grid-project">Projects</button>
+</div>
+<div class="grid-container row">
+    {{#each items}}
+        <article class="grid grid-{{type}}">
+            <a href="#!/entry/{{slug_generator type name @key}}">
+                <img src="{{thumbnail}}" alt="{{name}}" title="{{name}}">
+                {{name}}
+            </a>
+        </article>
+    {{/each}}
+</div>
+<script type="text/javascript">
+    $('.filter-button-group').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        if (filterValue == '*') {
+            smooth_show($('.grid'));
+        } else {
+            smooth_hide($('.grid'));
+            smooth_show($(filterValue));
+        }
+
+        var button_clicked = $(this);
+        if (button_clicked.hasClass('secondary')) {
+            $('.filter-button-group .button').addClass('secondary');
+            button_clicked.removeClass('secondary');
+        } else {
+            button_clicked.addClass('secondary');
+        }
+    });
+</script>
