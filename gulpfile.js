@@ -28,6 +28,9 @@ var minifyCSS = require('gulp-clean-css');
 /* Creates a notify message for when task is complete */
 var notify = require('gulp-notify');
 
+/* Allows for ordering of files in the pipe */
+var order = require('gulp-order');
+
 /* Prints out filenames of all the files that pass through a task */
 var print = require('gulp-print');
 
@@ -44,14 +47,14 @@ var uglify = require('gulp-uglify');
 /**
  * Source Paths
  */
-var scssApp = 'source/app/scss/';
 var jsApp = 'source/app/js/';
-var templatesApp = 'source/app/handlebars/';
+var scssApp = 'source/app/scss/';
 var scssAppFile = scssApp + 'main_app.scss';
+var templatesApp = 'source/app/handlebars/';
 
-var jsLib = 'source/libraries/js';
-var scssLib = 'source/libraries/scss';
-var scssLibFile = 'source/scss/main_libraries.scss';
+var jsLib = 'source/libraries/js/';
+var scssLib = 'source/libraries/scss/';
+var scssLibFile = scssLib + 'main_libraries.scss';
 
 /**
  * Destination Paths
@@ -74,7 +77,7 @@ gulp.task('js_app', function () {
         .pipe(print(function (filepath) {
             return "JS (App): " + filepath;
         }))
-        .pipe(concat('main.js'))
+        .pipe(concat('app.js'))
         .pipe(uglify())
         .pipe(gulp.dest(jsAppDest));
 });
@@ -85,6 +88,10 @@ gulp.task('js_app', function () {
  ***/
 gulp.task('js_libraries', function () {
     return gulp.src(jsLib + '**/*.js')
+        .pipe(order([
+            "jquery.min.js",
+            '*.js'
+        ], jsLib))
         .pipe(print(function (filepath) {
             return "JS (Libraries): " + filepath;
         }))

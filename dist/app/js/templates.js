@@ -1,0 +1,1 @@
+this.portfolio=this.portfolio||{},this.portfolio.master=Handlebars.template({compiler:[7,">= 4.0.0"],main:function(t,o,e,i,a){return""},useData:!0}),this.portfolio.menu=Handlebars.template({compiler:[7,">= 4.0.0"],main:function(t,o,e,i,a){return""},useData:!0});
