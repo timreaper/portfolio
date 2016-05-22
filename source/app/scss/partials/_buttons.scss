@@ -18,6 +18,14 @@
   margin-top: 1rem;
 }
 
+.filter-button-group.mobile-view {
+  display: inline;
+  .button {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+}
+
 .button {
   background-color: transparent;
   border: 1px solid black;

@@ -27,7 +27,7 @@ Handlebars.registerHelper('type_formatter', function (type) {
             return 'Flyer/Poster';
             break;
         case 'project':
-            return 'Case Study';
+            return 'Project';
             break;
         case 'website':
             return 'Website';

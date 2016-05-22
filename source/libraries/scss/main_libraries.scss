@@ -8,6 +8,7 @@
 
 @import "animate/animate.scss";
 @import "font-awesome/font-awesome";
-@import "foundation/foundation.scss";
+@import "foundation/foundation";
 @include foundation-everything;
+@import "lightbox/lightbox";
 @import "normalize/normalize";

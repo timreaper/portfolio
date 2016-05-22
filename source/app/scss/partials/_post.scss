@@ -1,0 +1,53 @@
+@import "buttons";
+
+.post-container {
+  margin-top: 1em;
+}
+
+.img-lightbox {
+
+}
+
+.post__images {
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+
+  &__info {
+    color: white;
+    display: none;
+    font-size: 60px;
+    left: 50%;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  &__overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.post__text {
+  max-width: 40%;
+  position: fixed;
+}
+
+@media only screen and (max-width: 768px) {
+  .post__text {
+    max-width: 100%;
+    position: relative;
+  }
+}

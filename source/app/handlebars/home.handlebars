@@ -1,10 +1,19 @@
-<div class="filter-button-group">
+<div class="filter-button-group hide-for-small-only">
     <button class="button selected button-rounded-left" data-filter="*">Show All</button>
     <button class="button" data-filter=".grid-website">Websites</button>
     <button class="button" data-filter=".grid-flyer">Flyers</button>
     <button class="button" data-filter=".grid-album">Album Covers</button>
     <button class="button button-rounded-right" data-filter=".grid-project">Projects</button>
 </div>
+
+<div class="filter-button-group mobile-view show-for-small-only">
+    <div class="button selected button-rounded" data-filter="*">Show All</div>
+    <div class="button button-rounded" data-filter=".grid-website">Websites</div>
+    <div class="button button-rounded" data-filter=".grid-flyer">Flyers</div>
+    <div class="button button-rounded" data-filter=".grid-album">Album Covers</div>
+    <div class="button button-rounded" data-filter=".grid-project">Projects</div>
+</div>
+
 <div class="grid-container row">
     {{#each items}}
         <article class="grid grid-{{type}}">
@@ -36,7 +45,7 @@
         if (filterValue == '*') {
             smooth_show($('.grid'));
         } else {
-            smooth_hide($('.grid'));
+            smooth_hide($('.grid'), '', 1);
             smooth_show($(filterValue));
         }
 

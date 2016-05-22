@@ -2,13 +2,23 @@
  * Created by Ed on 21/05/2016.
  */
 
-function smooth_hide(selector, speed) {
-    if (speed) {
-        selector.animate({opacity: 0}, speed, 'linear', function () {
-            selector.css('display', 'none');
-        });
+function smooth_hide(selector, speed, flag) {
+    if (flag == 1) {
+        if (speed) {
+            selector.animate({opacity: 0}, speed, 'linear', function () {
+                selector.css('display', 'none');
+            });
+        } else {
+            selector.animate({opacity: 0}).finish(selector.css('display', 'none'));
+        }
     } else {
-        selector.animate({opacity: 0}).finish(selector.css('display', 'none'));
+        if (speed) {
+            selector.animate({opacity: 0}, speed, 'linear', function () {
+                selector.css('display', 'none');
+            });
+        } else {
+            selector.animate({opacity: 0});
+        }
     }
 }
 
