@@ -1,0 +1,33 @@
+.day-night {
+  margin-bottom: 10px;
+}
+
+.night-mode {
+  @include transition-duration(.5s);
+  @include transition-property(all);
+  background-color: black;
+  color: white;
+
+  .menu {
+    @include transition-duration(.5s);
+    @include transition-property(all);
+    background-color: black;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, i, span {
+    color: white;
+  }
+
+  .button {
+    border: 1px solid white;
+    color: white;
+  }
+
+  .button.selected, .button:focus {
+    background-color: transparent;
+    border: 1px solid $link-colour;
+    color: $link-colour;
+  }
+}

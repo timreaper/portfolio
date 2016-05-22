@@ -1,5 +1,13 @@
 <div class="menu">
     <div class="row align-center text-center">
+        <div class="column small-12 day-night">
+            <button class="button tiny button-rounded-left day-mode-button" data-setting="day" title="Day Mode">
+                <i class="fa fa-sun-o"></i>
+            </button>
+            <button class="button tiny button-rounded-right night-mode-button" data-setting="night" title="Night Mode">
+                <i class="fa fa-moon-o"></i>
+            </button>
+        </div>
         <div class="column small-12">
             <a href="" title="Home">
                 <img class="menu__logo" src="app/assets/logos/menu-header.png" alt="Header Logo" title="Me!">
@@ -7,7 +15,8 @@
         </div>
         <br>
         <div class="column small-3">
-            <a class="menu__link" href="https://uk.linkedin.com/in/edem-alloh-40644366" target="_blank" title="LinkedIn">
+            <a class="menu__link" href="https://uk.linkedin.com/in/edem-alloh-40644366" target="_blank"
+               title="LinkedIn">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
         </div>
@@ -26,3 +35,21 @@
 <div class="menu__block">
 
 </div>
+
+<script type="text/javascript">
+    var setting = night_mode.get();
+    if (setting == 'night') {
+        $('.night-mode-button').addClass('selected');
+    } else {
+        $('.day-mode-button').addClass('selected');
+    }
+
+    $('.day-night').on('click', 'button', function () {
+        $('.day-night button').removeClass('selected');
+        $(this).addClass('selected');
+
+        var setting = $(this).data('setting');
+        night_mode.set(setting);
+        night_mode.check();
+    });
+</script>

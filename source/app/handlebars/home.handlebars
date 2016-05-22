@@ -1,9 +1,9 @@
 <div class="filter-button-group">
-    <button class="button button-rounded-left" data-filter="*">Show All</button>
-    <button class="secondary button" data-filter=".grid-website">Websites</button>
-    <button class="secondary button" data-filter=".grid-flyer">Flyers</button>
-    <button class="secondary button" data-filter=".grid-album">Album Covers</button>
-    <button class="secondary button button-rounded-right" data-filter=".grid-project">Projects</button>
+    <button class="button selected button-rounded-left" data-filter="*">Show All</button>
+    <button class="button" data-filter=".grid-website">Websites</button>
+    <button class="button" data-filter=".grid-flyer">Flyers</button>
+    <button class="button" data-filter=".grid-album">Album Covers</button>
+    <button class="button button-rounded-right" data-filter=".grid-project">Projects</button>
 </div>
 <div class="grid-container row">
     {{#each items}}
@@ -41,15 +41,11 @@
         }
 
         var button_clicked = $(this);
-        if (button_clicked.hasClass('secondary')) {
-            $('.filter-button-group .button').addClass('secondary');
-            button_clicked.removeClass('secondary');
+        if (button_clicked.hasClass('selected')) {
+            button_clicked.removeClass('selected');
         } else {
-            if (filterValue == '*') {
-                button_clicked.removeClass('secondary');
-            } else {
-                button_clicked.addClass('secondary');
-            }
+            $('.filter-button-group .button').removeClass('selected');
+            button_clicked.addClass('selected');
         }
     });
 </script>

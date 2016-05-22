@@ -38,9 +38,10 @@ var router = new function () {
                     return '';
             }
         }
-    }
+    };
 
     this.unload_page = function () {
         $('#page').html(portfolio.master());
+        night_mode.check();
     }
 };
