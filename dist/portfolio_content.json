@@ -4,7 +4,7 @@
       "name": "CueSongs",
       "type": "website",
       "date": "February 2015 - May 2016",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/01-cuesongs.jpg",
       "images": {
         "0": {
           "url": "",
@@ -18,7 +18,7 @@
       "name": "Forbidden Codes",
       "type": "project",
       "date": "September 2013 - November 2013",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/02-forbidden-codes.jpg",
       "images": {
         "0": {
           "url": "",
@@ -32,7 +32,7 @@
       "name": "7 Per Cent",
       "type": "website",
       "date": "September 2014",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/03-7-per-cent.jpg",
       "images": {
         "0": {
           "url": "",
@@ -46,7 +46,7 @@
       "name": "Science HKI",
       "type": "album",
       "date": "February 2015 - May 2016",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/04-science-hki.jpg",
       "images": {
         "0": {
           "url": "",
@@ -60,7 +60,7 @@
       "name": "Storylines",
       "type": "album",
       "date": "March 2016 - May 2016",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/05-storylines.jpg",
       "images": {
         "0": {
           "url": "",
@@ -71,10 +71,10 @@
       "description": "This is some artwork (using my own photography) that I've designed for an EP of mine that will be coming out soon on a record label called Skeleton Recordings."
     },
     "6": {
-      "name": "blackFRUIT",
-      "type": "website",
-      "date": "February 2015 - May 2016",
-      "thumbnail": "",
+      "name": "Special Projects",
+      "type": "project",
+      "date": "December 2014 - January 2015",
+      "thumbnail": "app/assets/thumbnails/06-special-projects.jpg",
       "images": {
         "0": {
           "url": "",
@@ -82,13 +82,13 @@
           "caption": ""
         }
       },
-      "description": "This is a mock website design which I created for a band, but was never implemented."
+      "description": "This is artwork done for an album release that was shelved before it went to manufacture."
     },
     "7": {
       "name": "Working Title",
       "type": "album",
       "date": "February 2013",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/07-working-title.jpg",
       "images": {
         "0": {
           "url": "",
@@ -102,7 +102,7 @@
       "name": "Hex Digital",
       "type": "website",
       "date": "September 2013",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/08-hex-digital.jpg",
       "images": {
         "0": {
           "url": "",
@@ -116,7 +116,7 @@
       "name": "Filter Mag",
       "type": "website",
       "date": "April 2013 - May 2013",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/09-filter-mag.jpg",
       "images": {
         "0": {
           "url": "",
@@ -130,7 +130,7 @@
       "name": "Critical Sound",
       "type": "album",
       "date": "August 2010",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/10-critical-sound.jpg",
       "images": {
         "0": {
           "url": "",
@@ -144,7 +144,7 @@
       "name": "Forbidden Codes (Website)",
       "type": "website",
       "date": "February 2015 - May 2016",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/11-forbidden-codes-website.jpg",
       "images": {
         "0": {
           "url": "",
@@ -158,7 +158,7 @@
       "name": "117 Records",
       "type": "project",
       "date": "August 2010 - October 2010",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/12-117-records.jpg",
       "images": {
         "0": {
           "url": "",
@@ -171,8 +171,8 @@
     "13": {
       "name": "Amen Warfare",
       "type": "project",
-      "date": "August 2010",
-      "thumbnail": "",
+      "date": "September 2011 - November 2011",
+      "thumbnail": "app/assets/thumbnails/13-amen-warfare.jpg",
       "images": {
         "0": {
           "url": "",
@@ -186,7 +186,7 @@
       "name": "Abstractions Presents Rupture",
       "type": "flyer",
       "date": "January 2010",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/14-abstractions-presents-rupture.jpg",
       "images": {
         "0": {
           "url": "",
@@ -200,7 +200,7 @@
       "name": "Simple Technique",
       "type": "album",
       "date": "December 2012",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/15-simple-technique.jpg",
       "images": {
         "0": {
           "url": "",
@@ -214,7 +214,7 @@
       "name": "Coding Conventions",
       "type": "website",
       "date": "January 2014",
-      "thumbnail": "",
+      "thumbnail": "app/assets/thumbnails/16-coding-conventions.jpg",
       "images": {
         "0": {
           "url": "",

@@ -10,12 +10,27 @@
         <article class="grid grid-{{type}}">
             <a href="#!/entry/{{slug_generator type name @key}}">
                 <img src="{{thumbnail}}" alt="{{name}}" title="{{name}}">
-                {{name}}
+                <div class="grid__overlay"></div>
+                <div class="grid__info">
+                    <span>{{type_formatter type}}</span>
+                    <h3>{{name}}</h3>
+                    <span class="grid__info--date">{{date}}</span>
+                </div>
             </a>
         </article>
     {{/each}}
 </div>
 <script type="text/javascript">
+    $('.grid').on('mouseenter', function () {
+        smooth_show($(this).find('.grid__info'));
+        smooth_show($(this).find('.grid__overlay'));
+    });
+
+    $('.grid').on('mouseleave', function () {
+        smooth_hide($(this).find('.grid__info'));
+        smooth_hide($(this).find('.grid__overlay'));
+    });
+
     $('.filter-button-group').on('click', 'button', function () {
         var filterValue = $(this).attr('data-filter');
         if (filterValue == '*') {

@@ -27,12 +27,14 @@ Handlebars.registerHelper('type_formatter', function (type) {
             return 'Flyer/Poster';
             break;
         case 'project':
-            return 'ETC';
+            return 'Case Study';
             break;
         case 'website':
-            return 'Website/Website Design';
+            return 'Website';
             break;
         default:
             return ''
     }
 });
+
+
