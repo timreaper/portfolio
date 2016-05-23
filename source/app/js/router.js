@@ -28,8 +28,11 @@ var router = new function () {
                         var url_segments = page[1].split('-');
                         var number = url_segments[url_segments.length - 1];
                         $('.site-container').html(portfolio.post(data.items[number]));
-                        $(window).scrollTop(0);
-                        $.mobile.silentScroll(0);
+                        if ($.mobile) {
+                            $.mobile.silentScroll(0);
+                        } else {
+                            $(window).scrollTop(0);
+                        }
                     });
                     break;
                 default:
