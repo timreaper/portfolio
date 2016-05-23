@@ -7,37 +7,37 @@
       "thumbnail": "app/assets/thumbnails/01-cuesongs.jpg",
       "images": {
         "0": {
-          "url": "app/assets/images/01-cuesongs/01.png",
-          "alt": "Checkout Page",
-          "caption": "This is the design of the checkout page, where people would find out prices of licensing a track and be able to pay for it."
+          "url": "app/assets/images/01-cuesongs/03.png",
+          "alt": "Homepage",
+          "caption": "Homepage - the initial page that people would see when they arrive on the website and after they log in."
         },
         "1": {
           "url": "app/assets/images/01-cuesongs/02.png",
           "alt": "Artist Page",
-          "caption": "This is the design of an artist's page, where users could view all the tracks that belonged to an artist on our site."
+          "caption": "Artist's Page - where users could view all the tracks that belonged to an artist on our site."
         },
         "2": {
-          "url": "app/assets/images/01-cuesongs/03.png",
-          "alt": "Homepage",
-          "caption": "This is the design of the homepage."
+          "url": "app/assets/images/01-cuesongs/01.png",
+          "alt": "Checkout Page",
+          "caption": "Checkout Page - where users could find out prices of licensing a track and then go through the payment process."
         },
         "3": {
           "url": "app/assets/images/01-cuesongs/04.png",
           "alt": "Meet The Team",
-          "caption": "This is the design of the 'Meet The Team' page, where each member of staff picked an album that had the most sentimental artwork to them."
+          "caption": "Meet The Team page - where each member of staff picked an album that had the most sentimental artwork to them."
         },
         "4": {
           "url": "app/assets/images/01-cuesongs/05.png",
           "alt": "My Licences",
-          "caption": "This is the design of the My Licences page, where a user could view all their previously licensed tracks and the data for them."
+          "caption": "My Licences page - where a user could view all their previously licensed tracks and the data for them."
         },
         "5": {
           "url": "app/assets/images/01-cuesongs/06.png",
           "alt": "User's Playlist",
-          "caption": "This is the design of a user created playlist page."
+          "caption": "User's Playlist - where a user can see the tracks that they added to the playlist, as well as share the playlist with others."
         }
       },
-      "description": "This is the e-commerce website which I did design & maintenance on whilst I worked at CueSongs."
+      "description": "I carried out design & maintenance work on the e-commerce website for CueSongs whilst working there."
     },
     "2": {
       "name": "Forbidden Codes",
@@ -48,32 +48,32 @@
         "0": {
           "url": "app/assets/images/02-forbidden-codes/01.png",
           "alt": "Digital Artwork",
-          "caption": "This is the artwork done for the digital edition of the release."
+          "caption": "Digital Artwork - design done for the digital edition of the release."
         },
         "1": {
           "url": "app/assets/images/02-forbidden-codes/02.png",
           "alt": "Sleeve Sticker",
-          "caption": "This is the sticker designed for the clear sleeve of the vinyl releases."
+          "caption": "Sleeve Sticker - sticker designed for the clear sleeve of the vinyl releases."
         },
         "2": {
           "url": "app/assets/images/02-forbidden-codes/03.png",
           "alt": "Vinyl Centre Label",
-          "caption": "This is the design made for the centre of each vinyl release of the compilation series."
+          "caption": "Vinyl Centre Label - an example of what the center label for each vinyl release of the compilation series looks like."
         },
         "3": {
           "url": "app/assets/images/02-forbidden-codes/04.png",
           "alt": "Vinyl Sleeve (Back Cover)",
-          "caption": "This is the artwork done for the back of the original vinyl sleeve, which later was changed to be a clear plastic sleeve with a sticker on one side."
+          "caption": "Vinyl Sleeve (Back Cover) - artwork done for the back of the original vinyl sleeve, which later was changed to be a clear plastic sleeve with a sticker on one side."
         },
         "4": {
           "url": "app/assets/images/02-forbidden-codes/05.png",
           "alt": "Lineup Teaser",
-          "caption": "This is the artwork done for online promotion of the release, teasing the artist lineup."
+          "caption": "Lineup Teaser - artwork done for online promotion of the release, teasing the artist lineup."
         },
         "5": {
           "url": "app/assets/images/02-forbidden-codes/06.png",
           "alt": "Photo of Vinyl",
-          "caption": "This is a photograph of the finished product."
+          "caption": "Photo of Vinyl - photograph of the finished product."
         }
       },
       "description": "This is a collection of artwork that I completed for a various artists compilation on a record label called 117 Records."
@@ -87,10 +87,10 @@
         "0": {
           "url": "app/assets/images/03-7-per-cent/01.jpg",
           "alt": "Website Screencap",
-          "caption": "This is a screenshot of the website, with the middle logo being a clickable button that took the user to a randomly picked design inspiration website."
+          "caption": "Website Screencap - the middle logo being a clickable button that took the user to a randomly picked design inspiration website."
         }
       },
-      "description": "This is a small one page website that I designed & implemented for fun, that loaded random design inspiration websites on click of the main button/emblem."
+      "description": "I designed and implemented a small (one page) website for fun. The aim of the website was to load random design inspirational sites once you click on the main button/emblem."
     },
     "4": {
       "name": "Science HKI",
@@ -101,10 +101,10 @@
         "0": {
           "url": "app/assets/images/04-science-hki/01.jpg",
           "alt": "Podcast Art",
-          "caption": "This is the design for my episode's artwork, using a photograph I took in South Woodford, using a homemade pinhole camera."
+          "caption": "Podcast Art - design for my episode's artwork, using a photograph I took in South Woodford, using a homemade pinhole camera."
         }
       },
-      "description": "This is the artwork that I designed for my edition of a DJ podcast called Science HKI, based in Finland, using my own film photography."
+      "description": "This is the artwork that I designed for my edition of a DJ podcast called Science HKI. It's based in Finland and the picture used is one from I used my own collection of film photographs."
     },
     "5": {
       "name": "Storylines",
@@ -115,15 +115,15 @@
         "0": {
           "url": "app/assets/images/05-storylines/01.png",
           "alt": "Digital Cover",
-          "caption": "This is the artwork to be used for the digital release of the EP."
+          "caption": "Digital Cover - artwork to be used for the digital release of the EP."
         },
         "1": {
           "url": "app/assets/images/05-storylines/02.png",
-          "alt": "",
-          "caption": "This is the design for the sticker to be used on the top of the vinyl sleeve of the EP."
+          "alt": "Sleeve Sticker",
+          "caption": "Sleeve Sticker - design for the sticker to be used on the top of the vinyl sleeve of the EP."
         }
       },
-      "description": "This is some artwork (using my own photography) that I've designed for an EP of mine that will be coming out soon on a record label called Skeleton Recordings."
+      "description": "I designed the artwork (using my own photography) for an EP (multiple track release) of mine that will be coming out soon on a record label called Skeleton Recordings."
     },
     "6": {
       "name": "Special Projects",
@@ -134,35 +134,35 @@
         "0": {
           "url": "app/assets/images/06-special-projects/01.png",
           "alt": "Front Cover",
-          "caption": "This is the front cover for the CD & digital versions."
+          "caption": "Front Cover - design for the front cover for the CD & digital versions."
         },
         "1": {
           "url": "app/assets/images/06-special-projects/02.png",
           "alt": "Back Cover",
-          "caption": "This is the back cover for the CD version."
+          "caption": "Back Cover - design for the back cover for the CD version."
         },
         "2": {
           "url": "app/assets/images/06-special-projects/03.png",
           "alt": "CD",
-          "caption": "This is the design for the CD disc."
+          "caption": "CD - design for the CD disc."
         },
         "3": {
           "url": "app/assets/images/06-special-projects/04.png",
           "alt": "Promotional Art 1",
-          "caption": "This is some additional artwork designed for promotional use."
+          "caption": "Promotional Art 1 - some additional artwork designed for promotional use."
         },
         "4": {
           "url": "app/assets/images/06-special-projects/05.png",
           "alt": "Promotional Art 2",
-          "caption": "This is some additional artwork designed for promotional use."
+          "caption": "Promotional Art 2 - some additional artwork designed for promotional use."
         },
         "5": {
           "url": "app/assets/images/06-special-projects/06.png",
           "alt": "Promotional Art 3",
-          "caption": "This is some additional artwork designed for promotional use."
+          "caption": "Promotional Art 3 - some additional artwork designed for promotional use."
         }
       },
-      "description": "This is artwork done (using some film photography of mine) for an album release that was shelved before it went to manufacture."
+      "description": "I created these designs using some film photography of mine for an album release that was shelved before it went to manufacture."
     },
     "7": {
       "name": "Square Up Media",
@@ -173,15 +173,15 @@
         "0": {
           "url": "app/assets/images/07-square-up-media/01.png",
           "alt": "Top of Page",
-          "caption": "This is the top of the one page website."
+          "caption": "Top of Page - screenshot of the top of the one page website."
         },
         "1": {
           "url": "app/assets/images/07-square-up-media/02.png",
           "alt": "Bottom of Page",
-          "caption": "This is the bottom of the one page website."
+          "caption": "Bottom of Page - screenshot of the bottom of the one page website."
         }
       },
-      "description": "This is a website I designed as part of applying to a company, where I had to convert a PSD wireframe into a responsive one-page website."
+      "description": "I implemented this website design when applying to a company. I was tasked with converting a PSD wireframe they supplied into a responsive one-page website."
     },
     "8": {
       "name": "Working Title",
@@ -192,10 +192,10 @@
         "0": {
           "url": "app/assets/images/08-working-title/01.png",
           "alt": "Album Cover",
-          "caption": "This is the main artwork designed for use on each track of the Working Title series I was releasing."
+          "caption": "Album Cover - main album artwork designed for use on each track of the 'Working Title' series I was releasing."
         }
       },
-      "description": "This is the digital cover (using my own photography) of a series of free downloads that I was releasing on my SoundCloud page."
+      "description": "Digital cover I created using my own photography of a series of free downloads that I was releasing on my SoundCloud page."
     },
     "9": {
       "name": "Hex Digital",
@@ -206,15 +206,15 @@
         "0": {
           "url": "app/assets/images/09-hex-digital/01.png",
           "alt": "Homepage",
-          "caption": "A homepage based on the design supplied for a fictional company."
+          "caption": "Homepage - screenshot of the implementation based on the homepage design supplied for a fictional company."
         },
         "1": {
           "url": "app/assets/images/09-hex-digital/02.png",
           "alt": "Work",
-          "caption": "A page based on the design supplied to show the fictional company's work."
+          "caption": "Work Page - screenshot of the implementation based on the design supplied to show the fictional company's work."
         }
       },
-      "description": "This is a website I created for an interview with a digital agency in Dalston that I was applying to intern for."
+      "description": "I created this website as part of an interview for an internship with a digital agency in Dalston."
     },
     "10": {
       "name": "Filter Mag",
@@ -225,10 +225,10 @@
         "0": {
           "url": "app/assets/images/10-filter-mag/01.png",
           "alt": "Homepage",
-          "caption": "This is the mockup I designed of the homepage."
+          "caption": "Homepage - mockup I designed of the homepage."
         }
       },
-      "description": "This is a mock design for a music magazine website, that I was planning on implementing with a group of friends but did not have the time to do so."
+      "description": "I designed this mockup design of a music magazine website, that I was planning on implementing with a group of friends but did not have the time to do so."
     },
     "11": {
       "name": "Critical Sound",
@@ -242,7 +242,7 @@
           "caption": ""
         }
       },
-      "description": "This is a concept design, done based on a various artist compilation on a drum & bass label."
+      "description": "I created this concept design, based on a various artist compilation on a drum & bass label."
     },
     "12": {
       "name": "Forbidden Codes (Website)",
@@ -253,20 +253,20 @@
         "0": {
           "url": "app/assets/images/12-forbidden-codes-website/01.png",
           "alt": "Top of Page",
-          "caption": "The top of the homepage, with the menu & hero image section."
+          "caption": "Top of Page - screenshot of the top of the page, with the menu & hero image section."
         },
         "1": {
           "url": "app/assets/images/12-forbidden-codes-website/02.png",
           "alt": "Artists Section",
-          "caption": "Grid layout of artist SoundCloud pages."
+          "caption": "Artists Section - screenshot of the grid layout of artist SoundCloud pages."
         },
         "2": {
           "url": "app/assets/images/12-forbidden-codes-website/01.png",
           "alt": "Details Section",
-          "caption": "The details about each format of the compilation, with SoundCloud playlists."
+          "caption": "Details Section - screenshot of the section outlining details on each format of the compilation, with SoundCloud playlists."
         }
       },
-      "description": "This is a promotional splash page I designed for the lead up to a various artist compilation that I had also designed the artwork for."
+      "description": "I designed & implemented this promotional splash page for the lead up to a various artist compilation that I had also designed the artwork for."
     },
     "13": {
       "name": "117 Records",
@@ -277,27 +277,27 @@
         "0": {
           "url": "app/assets/images/13-117-records/01.png",
           "alt": "House Sleeve",
-          "caption": "This is a generic house sleeve designed for use with the vinyl releases, but was not used."
+          "caption": "House Sleeve - the design for use with the vinyl releases, but was not used."
         },
         "1": {
           "url": "app/assets/images/13-117-records/02.png",
           "alt": "Vinyl Center Label (Logo Side)",
-          "caption": "This is the logo side of each vinyl release."
+          "caption": "Vinyl Center Label (Logo Side) - the design for the logo side of the center label for each vinyl release."
         },
         "2": {
           "url": "app/assets/images/13-117-records/03.png",
           "alt": "Vinyl Center Label (Info Side)",
-          "caption": "This is an example of the text side of each vinyl release."
+          "caption": "Vinyl Center Label (Text Side) - the design for the text side of the center label for each vinyl release."
         },
         "3": {
           "url": "app/assets/images/13-117-records/04.png",
           "alt": "Letter Masthead",
-          "caption": "This is a masthead used on documents related to the record label operations."
+          "caption": "Letter Masthead - the design for the masthead used on documents related to the record label operations."
         },
         "4": {
           "url": "app/assets/images/13-117-records/05.png",
-          "alt": "Finished Product",
-          "caption": "This is a photograph of what the finished vinyl release looked like."
+          "alt": "Photo of Vinyl",
+          "caption": "Photo of Vinyl - a photograph of what one of the finished vinyl releases looked like."
         }
       },
       "description": "I was tasked with creating a 'style guide' for a newly formed record label called 117 Records & based on the requirements provided by the label owner, this was the outcome."
@@ -311,40 +311,40 @@
         "0": {
           "url": "app/assets/images/14-amen-warfare/01.png",
           "alt": "CD Front Cover",
-          "caption": "The front cover designed for the CD version of the release."
+          "caption": "CD Front Cover - the design for the front cover of the CD version of the release."
         },
         "1": {
           "url": "app/assets/images/14-amen-warfare/02.png",
           "alt": "CD Back Cover",
-          "caption": "The back cover designed for the CD version of the release."
+          "caption": "CD Back Cover - the design for the back cover of the CD version of the release."
         },
         "2": {
           "url": "app/assets/images/14-amen-warfare/03.png",
           "alt": "CD 1 Disc Art",
-          "caption": "The CD artwork for disc 1."
+          "caption": "CD 1 Disc Art - the CD artwork design for disc 1."
         },
         "3": {
           "url": "app/assets/images/14-amen-warfare/04.png",
           "alt": "CD 2 Disc Art",
-          "caption": "The CD artwork for disc 2."
+          "caption": "CD 2 Disc Art - the CD artwork design for disc 2."
         },
         "4": {
           "url": "app/assets/images/14-amen-warfare/05.png",
-          "alt": "Vinyl Sleeve Front Cover",
-          "caption": "The front cover designed for the vinyl version of the release."
+          "alt": "Vinyl Sleeve (Front Cover)",
+          "caption": "Vinyl Sleeve (Front Cover) - the design for the front cover of the vinyl version of the release."
         },
         "5": {
           "url": "app/assets/images/14-amen-warfare/06.png",
-          "alt": "Vinyl Sleeve Back Cover",
-          "caption": "The back cover designed for the vinyl version of the release."
+          "alt": "Vinyl Sleeve (Back Cover)",
+          "caption": "Vinyl Sleeve (Back Cover) - the design for the back cover of the vinyl version of the release."
         },
         "6": {
           "url": "app/assets/images/14-amen-warfare/07.png",
           "alt": "Vinyl Center Label",
-          "caption": "An example of what the center label of the vinyl releases would look like."
+          "caption": "Vinyl Center Label - an example of what the center label of the vinyl releases would look like."
         }
       },
-      "description": "This is a set of artwork that I designed for a compilation I was also featuring on. The plans were changed at the last minute and there were no vinyl or CD manufactured for the release, so only the digital art (modified version of the front of vinyl sleeve) was used."
+      "description": "I created this set of designs for a various artists compilation I was also featuring on. The plans were changed at the last minute and no vinyl or CD manufactured for the release, so only the digital art (modified version of the front of vinyl sleeve) was used."
     },
     "15": {
       "name": "Abstractions Presents Rupture",
@@ -355,10 +355,10 @@
         "0": {
           "url": "app/assets/images/15-abstractions-presents-rupture/01.png",
           "alt": "Front & Back",
-          "caption": "This is the last version of the front & back of the flyer designed for the joint night, before it was shelved."
+          "caption": "Front & Back - a preview of the front & back of the flyer designed for the joint night, before it was shelved."
         }
       },
-      "description": "This is a flyer I designed for a joint night hosted by 2 different promotions, but was never used."
+      "description": "I designed this flyer for a joint night hosted by 2 different promotions, but was never used."
     },
     "16": {
       "name": "Simple Technique",
@@ -372,7 +372,7 @@
           "caption": ""
         }
       },
-      "description": "This is a simple promotional art made for an artist I knew at the time."
+      "description": "A simple promotional art made for an artist I knew at the time."
     },
     "17": {
       "name": "Coding Conventions",
@@ -383,15 +383,15 @@
         "0": {
           "url": "app/assets/images/17-coding-conventions/01.png",
           "alt": "Top of Page",
-          "caption": "This is how the top of the page looked, capturing the header menu & the top of the first section."
+          "caption": "Top of Page - a screenshot of what the top of the page looked, capturing the header menu & the top of the first section."
         },
         "1": {
           "url": "app/assets/images/17-coding-conventions/01.png",
           "alt": "Naming",
-          "caption": "This is the an example of what one of the sections (outlining best practice on naming variables) looked like."
+          "caption": "Naming - a screenshot of what one of the sections (outlining best practice on naming variables) looked like."
         }
       },
-      "description": "This is a simple one page website I made as part of my degree, to educate students on best practices for Java programming."
+      "description": "I designed & implemented a simple one page website I made as part of my degree, to educate students on best practices for programming with Java."
     },
     "18": {
       "name": "blackFRUIT",
@@ -402,20 +402,20 @@
         "0": {
           "url": "app/assets/images/18-blackfruit/01.png",
           "alt": "Homepage",
-          "caption": "This is a mockup of how the homepage would look."
+          "caption": "Homepage - the design for how the homepage would look."
         },
         "1": {
           "url": "app/assets/images/18-blackfruit/02.png",
           "alt": "Discography/Shop",
-          "caption": "This is a mockup of how the discography/shop would look."
+          "caption": "Discography/Shop - the design for how the discography/shop would look."
         },
         "2": {
           "url": "app/assets/images/18-blackfruit/03.png",
           "alt": "Biography",
-          "caption": "This is a mockup of how the band's biography page would look."
+          "caption": "Biography - the design for how the band's biography page would look."
         }
       },
-      "description": "This is a mock website design that I did for a fictional band."
+      "description": "I designed this mockup of a website that for a fictional band."
     }
   }
 }
