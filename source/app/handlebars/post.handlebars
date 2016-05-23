@@ -1,5 +1,5 @@
 <div class="post-container row">
-    <div class="small-12 medium-12 large-6 columns text-container">
+    <div class="small-12 medium-6 columns text-container">
         <div class="post__text">
             <a href="#!/" class="back-to-home">
                 <i class="fa fa-arrow-left"></i> Back to Home</a>
@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <div class="small-12 medium-12 large-6 columns">
+    <div class="small-12 medium-6 columns">
         {{#each images}}
             <div class="post__images">
                 <a title="{{alt}}" data-title="{{caption}}" data-lightbox="{{../name}}" href="{{url}}">
@@ -35,6 +35,18 @@
         $('.post__images').on('mouseleave', function () {
             smooth_hide($(this).find('.post__images__info'));
             smooth_hide($(this).find('.post__images__overlay'));
+        });
+
+        if (window.innerWidth < 1122 && window.innerWidth > 640) {
+            $('.text-container').css('max-width', window.innerWidth / 2);
+        }
+
+        $(window).resize(function () {
+            if (window.innerWidth < 1122 && window.innerWidth > 640) {
+                $('.text-container').css('max-width', window.innerWidth / 2);
+            } else {
+                $('.text-container').css('max-width', '');
+            }
         });
     </script>
 </div>
