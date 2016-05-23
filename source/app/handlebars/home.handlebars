@@ -42,7 +42,6 @@
 
     $('.filter-button-group').on('click', '.button', function () {
         var filterValue = $(this).attr('data-filter');
-        console.log(filterValue);
         if (filterValue == '*') {
             smooth_show($('.grid'));
         } else {

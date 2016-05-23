@@ -7,10 +7,6 @@ var router = new function () {
         return window.location.hash.split('#!/');
     };
 
-    this.load_404 = function () {
-        console.log('ok');
-    };
-
     this.load_page = function () {
         router.unload_page();
 
@@ -32,6 +28,8 @@ var router = new function () {
                         var url_segments = page[1].split('-');
                         var number = url_segments[url_segments.length - 1];
                         $('.site-container').html(portfolio.post(data.items[number]));
+                        $(window).scrollTop(0);
+                        $.mobile.silentScroll(0);
                     });
                     break;
                 default:
