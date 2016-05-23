@@ -14,6 +14,17 @@
     background-color: black;
     box-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
     color: white;
+
+    .background-texture {
+      background-image: url("../assets/images/menu-background-night.jpg");
+      height: 100%;
+      left: 0;
+      opacity: 0.1;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+    }
   }
 
   h1, h2, h3, h4, h5, h6, p, i, span {
