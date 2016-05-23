@@ -40,8 +40,9 @@
         smooth_hide($(this).find('.grid__overlay'));
     });
 
-    $('.filter-button-group').on('click', 'button', function () {
+    $('.filter-button-group').on('click', '.button', function () {
         var filterValue = $(this).attr('data-filter');
+        console.log(filterValue);
         if (filterValue == '*') {
             smooth_show($('.grid'));
         } else {

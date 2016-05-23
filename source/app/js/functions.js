@@ -25,9 +25,9 @@ function smooth_hide(selector, speed, flag) {
 function smooth_show(selector, speed) {
     selector.css('opacity', 0);
     if (speed) {
-        selector.css('display', 'unset').finish(selector.animate({opacity: 1}, speed, 'linear'));
+        selector.css('display', 'initial').finish(selector.animate({opacity: 1}, speed, 'linear'));
     } else {
-        selector.css('display', 'unset').finish(selector.animate({opacity: 1}));
+        selector.css('display', 'initial').finish(selector.animate({opacity: 1}));
     }
 }
 
