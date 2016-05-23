@@ -40,14 +40,17 @@
   }
 }
 
-.post__text {
-  max-width: 40%;
-  position: fixed;
-}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 64.063em) {
   .post__text {
-    max-width: 100%;
-    position: relative;
+    max-width: inherit;
+    padding-right: 15px;
+    position: fixed;
+    width: inherit;
+  }
+
+  .text-container {
+    max-width: 570px;
+    width: 100%;
   }
 }
