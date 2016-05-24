@@ -13,6 +13,10 @@
   margin-bottom: 10px;
   position: relative;
 
+  a img {
+    width: 100%;
+  }
+
   &__info {
     color: white;
     display: none;
@@ -39,7 +43,6 @@
     width: 100%;
   }
 }
-
 
 @media only screen and (min-width: 640px) {
   .post__text {

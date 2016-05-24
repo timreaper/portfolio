@@ -37,12 +37,12 @@
             smooth_hide($(this).find('.post__images__overlay'));
         });
 
-        if (window.innerWidth < 1122 && window.innerWidth > 640) {
+        if (window.innerWidth < 1122 && window.innerWidth >= 640) {
             $('.text-container').css('max-width', window.innerWidth / 2);
         }
 
         $(window).resize(function () {
-            if (window.innerWidth < 1122 && window.innerWidth > 640) {
+            if (window.innerWidth < 1122 && window.innerWidth >= 640) {
                 $('.text-container').css('max-width', window.innerWidth / 2);
             } else {
                 $('.text-container').css('max-width', '');
