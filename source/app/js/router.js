@@ -3,7 +3,6 @@
  */
 var router = new function () {
     this.get_pathname = function () {
-        //@TODO fix before deployment!!!
         return window.location.hash.split('#!/');
     };
 
@@ -11,7 +10,7 @@ var router = new function () {
         router.unload_page();
 
         var page = router.get_pathname();
-        if (typeof page[1] == 'undefined') {
+        if (typeof page[1] === 'undefined') {
             $.getJSON("portfolio_content.json", function (data) {
                 $('.site-container').html(portfolio.home(data));
             });
